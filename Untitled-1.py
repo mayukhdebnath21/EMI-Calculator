@@ -1,0 +1,6 @@
+p= float(input("enter principal amount= "))
+r= float(input("enter rate of interest= "))
+n= int(input("enter number of months= "))
+R=(r/12/100)
+EMI=p*R*(1+r)**n/((1+r)**n-1)
+print ('EMI = %0.2f' %EMI)
